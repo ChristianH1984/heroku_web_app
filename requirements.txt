@@ -1,2 +1,5 @@
 gunicorn
 Flask
+radon
+pytest
+pycodestyle
