@@ -2,4 +2,5 @@ gunicorn
 Flask
 radon
 pytest
+pytest-cov
 pycodestyle

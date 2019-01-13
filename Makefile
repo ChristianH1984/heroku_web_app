@@ -1,6 +1,6 @@
 tests:
 	radon cc -s *.py
-	pytest ../test/
+	pytest --cov-report term-missing --cov=app ../test
 lint:
 	pycodestyle *.py
 	pycodestyle ../test/*.py
